@@ -1,0 +1,8 @@
+.imagenssite{
+    display: flex;
+    gap: 40px; /* TAG PARA O ESPASSAMENTO COM O COMANDO GRID*/
+    height: 250px;
+    
+    }
+
+ 

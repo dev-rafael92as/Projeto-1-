@@ -1,0 +1,146 @@
+header { /*Cor da barra do cabeçario, que está atrás da foto*/
+
+    background: #050505;
+    padding: 0 0; /* Comando para manter titulo ou imagem com distacia de 5px da borda da site */
+}
+
+
+.caixa{     /*tamanho da paigina em pixel para computador, celular etc*/
+    position: relative; /*inseriu o menu dentro da caixa */
+    width: 940px;
+    margin: 0 auto; /* Comando para auto calcular o tamanho do menu e centralizar na tela */
+}
+
+nav { /*Menu de navega*/
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+.fotomenu{ /*Foto do menu de opção */
+
+    width: 251px;
+}
+
+.myperfil{ /* foto do quadro my perfil */
+
+    width: 164px;
+}
+
+.video{ /* foto do quadro video */
+
+    width: 254px;
+    
+}
+
+nav li { /*menu de opções*/
+    display: inline;
+    margin: 0 0 0 18px; /*comando para o espaçamento entre as palavras*/
+   
+}
+
+nav a{ /*Cor e fonte do menu de opções*/
+    text-transform: uppercase;
+    color: #f7f2f2;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.Produtos li:hover { /*Efeito que troca a cor da borda do quadro*/
+    border-color: #c78c19;
+}
+
+.Produtos li{ /*Efeito de caixa*/ 
+    display: inline-block; /*Mantem os quadros um do lado do outro */
+    text-align: center ;/* mantem o texto dentro do quadro centralizado*/
+    width: 30%; /*Controla o tamanho da caixa*/
+    vertical-align: top;
+    margin: 0 1.5%; /* controla o espassamento entre as imagens*/
+    padding: 30px 20px; /*Distancia do cabeçario para o conteudo dentro do quadro*/
+    box-sizing: border-box; /*nao entendi como funciona*/
+    border: 2px solid #000000;/*  cor da borda  */
+    border-radius: 20px; /*Comando para arrendondar a borda da caixa*/
+}
+.Produtos{ 
+           /*Codigo para controlar o cabeçario texto dentro da caixa */
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px 0;
+    
+}
+
+.Produto-descrição { /*Descrição que está em baixa do foto dentro da caixa*/
+
+    font-size: 14px;
+}
+
+footer { /* Configurações do rodapé para centralizar*/
+
+    text-align: center;
+    background: url(bg.jpg);
+    padding: -16px 0;
+    
+}
+
+.Copyright { /* Configurações do rodapé*/
+        color:  rgb(250, 244, 244)  ;
+        font-size:  13px;
+        margin: -16px 0 0;
+    
+    }
+
+
+
+/* CONFIGURAÇÕES CONTATO*/
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar { /*  CONFIGURAÇÃO DO BOTÃO DE ENVIAR  */
+    width:538px;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover { /*  ANIMAÇÃO DO BOTÃO  */
+    background: darkorange;
+}
+
+
+/*  TELA DE FOTOS  */
+
+

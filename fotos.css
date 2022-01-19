@@ -1,8 +1,12 @@
 .imagenssite{
-    display: flex;
+    display: grid;
     gap: 40px; /* TAG PARA O ESPASSAMENTO COM O COMANDO GRID*/
-    height: 250px;
-    
+    grid-template-columns: 1fr 1fr 1fr;
     }
+
+.imagem {
+    width: 250px;
+    height: 250px;
+}
 
  
